@@ -191,7 +191,7 @@ ol {
     text-decoration: none;
 }
 .content__details{ /*second-section*/
-    height: 80vh;
+    /*height: 80vh;*/
 }
 .content__video-card-description-container {
     max-width: 196px;
