@@ -53,9 +53,11 @@ ol {
 }
 .result__video-container{  /*first-section1*/
     position: relative;
-    height: 389px;
+    width: 711px;
+    height: 399px;
 }
 .result__video {
+    height: 100%;
     width: 100%;
 }
 .search-form {  /*first-section2*/
@@ -177,7 +179,7 @@ ol {
 }
 .content__list {
     position: relative;
-    height: 45vh;
+    height: 300px;
     width: 400px;
     overflow-y: auto;
     scrollbar-width: thin;
@@ -197,6 +199,7 @@ ol {
     text-decoration: none;
 }
 .content__details{ /*second-section*/
+    align-items: start;
 }
 .content__video-card-description-container {
     max-width: 196px;
