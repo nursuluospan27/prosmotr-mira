@@ -214,6 +214,10 @@ ol {
     outline: none;
     box-shadow: 0 0 0 2px #fff;
 }
+.content__card-link:active {
+    background-color: #545050;
+    text-decoration: none;
+}
 
 .content__video-card {
     display: grid;
@@ -233,10 +237,10 @@ ol {
     text-underline-offset: 2px;
     text-decoration-thickness: 1px;
 }
-.content__video-card:has(:active) .content__video-card-description-container{
-    background-color: #545050;
-    text-decoration: none;
-}
+/*.content__video-card:has(:active) .content__video-card-description-container{*/
+/*    background-color: #545050;*/
+/*    text-decoration: none;*/
+/*}*/
 
 .content__video-card-title {
     max-width: inherit;
